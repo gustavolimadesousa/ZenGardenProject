@@ -1,0 +1,79 @@
+// Atoms
+// Basic styles and utility classes
+
+@import 'variables';
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-family: 'Rajdhani', Arial, sans-serif;
+  text-align: center;
+  padding: 2em;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: $heading-font-weight;
+  font-size: $heading-font-size;
+}
+
+a {
+  color: $link-color;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: translate(-2%, -2%) rotate(0deg);
+  }
+  to {
+    transform: translate(-2%, -2%) rotate(360deg);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0) rotate(0deg); 
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg); 
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translate(50px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate(50px) rotate(-360deg);
+  }
+}
+
+@keyframes pulseAnimation {
+  0% {
+    transform: translate(0%, 0%) scale(1); 
+  }
+  50% {
+    transform: translate(0%, 0%) scale(1.2); 
+  }
+  100% {
+    transform: translate(0%, 0%) scale(1); 
+  }
+}
+
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-20px); 
+  }
+}

@@ -1,0 +1,210 @@
+@import 'variables';
+
+// Full screen mode 
+
+@media screen and (min-width: 800px) {
+  html {
+    position: relative;
+    margin: 0 4em;
+  }
+
+  #zen-summary > p:nth-child(2)::after {
+    display: none;
+  }
+
+  header {
+    padding-top: 1em;
+  }
+
+  #zen-intro > header > h1 {
+    overflow: hidden;
+    position: relative;
+    left: -35%;
+  }
+
+  #zen-intro > header > h1::after {
+    content: "";
+    display: block;
+    width: 100%; 
+    height: 250px; 
+    background-image: url($moon-svg);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5em;
+    padding: 1em;
+    animation: rotateAnimation $animation-duration $animation-timing-function $animation-iteration-count;
+    position: relative;
+    left: 15%;
+  }
+
+  #zen-intro > header > h2 {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    left: 50%;
+    top: -5.2em;
+    text-align: left;
+    width: 40%;
+  }
+
+  .summary {
+    position: relative;
+    left: 50%;
+    top: -13em;
+    width: 40%;
+    text-align: left;
+  }
+
+  .summary p {
+    padding: 0.5em 0;
+  }
+
+  #zen-explanation {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    text-align: justify;
+  }
+
+  #zen-explanation > h3::after {
+    display: none;
+  }
+
+  #zen-explanation p {
+    padding: 0.5em 0;
+  }
+
+  #zen-explanation > p:nth-child(3)::after {
+    content: "";
+    display: block;
+    width: 100%; 
+    height: 250px; 
+    background-image: url($atom-svg);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    padding: 0em;
+    animation: move 4s infinite alternate;
+    position: absolute;
+    left: 25%;
+    top: 29.5%;
+  }
+
+  .main h3 {
+    padding: 2em 0em;
+  }
+
+  #zen-participation {
+    display: block;
+    overflow: hidden;
+    text-align: right;
+  }
+  #zen-participation p {
+    display: block;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    text-align: justify;
+    padding: 0.5em 0;
+  }
+
+  #zen-participation > h3 {
+    display: block;
+  }
+
+  #zen-participation > h3::after {
+    display: none;
+  }
+
+  #zen-participation > h3::before {
+    content: "";
+    display: block;
+    width: 100%; 
+    height: 250px; 
+    background-image: url($mars-svg);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    padding: 0em;
+    animation: orbit 7s linear infinite;
+    transform-origin: center; 
+    position: absolute;
+    left: -25%;
+    top: 40%;
+  }
+
+  #zen-benefits {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    text-align: justify;
+  }
+
+  #zen-benefits > h3 {
+    margin-top: 3em;
+  }
+
+  #zen-benefits > h3::after {
+    display: none;
+  }
+
+  #zen-benefits p {
+    padding: 0.5em 0;
+  }
+
+  #zen-benefits > p::after {
+    content: "";
+    content: "";
+    display: flex;
+    width: 100%; 
+    height: 250px; 
+    background-image: url($earth-svg);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    padding: 0em;
+    animation: pulseAnimation 2s ease-in-out infinite;
+    position: absolute;
+    left: 25%;
+    top: 52.5%;
+  }
+
+  #zen-requirements {
+    display: block;
+    overflow: hidden;
+    text-align: right;
+  }
+
+  #zen-requirements p {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    text-align: justify;
+    padding: 0.5em 0;
+  }
+
+  #zen-requirements > h3 {
+    margin-top: 3em;
+  }
+
+  #zen-requirements > h3::after {
+    position: absolute;
+    left: -25%;
+    top: 67%;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: $accent-color;
+    padding: 2em;
+  }
+
+  #design-selection > h3 {
+    margin: 0;
+  }
+}
