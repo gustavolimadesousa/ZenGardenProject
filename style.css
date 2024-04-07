@@ -27,6 +27,15 @@ ul {
   padding: 0;
 }
 
+footer {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+footer a:hover {
+  transform: scale(1.05);
+}
+
 @keyframes rotateAnimation {
   from {
     transform: translate(-2%, -2%) rotate(0deg);
