@@ -23,6 +23,10 @@ a {
   color: #fff;
 }
 
+ul {
+  padding: 0;
+}
+
 @keyframes rotateAnimation {
   from {
     transform: translate(-2%, -2%) rotate(0deg);
