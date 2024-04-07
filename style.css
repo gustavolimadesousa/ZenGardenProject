@@ -89,7 +89,7 @@ a {
   display: block;
   width: 100%;
   height: 250px;
-  background-image: url("/svg/moon.svg");
+  background-image: url("svg/moon.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -133,7 +133,7 @@ a {
   display: block;
   width: 100%;
   height: 250px;
-  background-image: url("/svg/atom.svg");
+  background-image: url("svg/atom.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ a {
   display: block;
   width: 100%;
   height: 280px;
-  background-image: url("/svg/mars.svg");
+  background-image: url("svg/mars.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ a {
   display: block;
   width: 100%;
   height: 250px;
-  background-image: url("/svg/earth.svg");
+  background-image: url("svg/earth.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -176,7 +176,7 @@ a {
   display: block;
   width: 100%;
   height: 250px;
-  background-image: url("/svg/saturn.svg");
+  background-image: url("svg/saturn.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -253,7 +253,7 @@ a {
     display: block;
     width: 100%;
     height: 250px;
-    background-image: url("/svg/moon.svg");
+    background-image: url("svg/moon.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -299,7 +299,7 @@ a {
     display: block;
     width: 100%;
     height: 250px;
-    background-image: url("/svg/atom.svg");
+    background-image: url("svg/atom.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -337,7 +337,7 @@ a {
     display: block;
     width: 100%;
     height: 250px;
-    background-image: url("/svg/mars.svg");
+    background-image: url("svg/mars.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -370,7 +370,7 @@ a {
     display: flex;
     width: 100%;
     height: 250px;
-    background-image: url("/svg/earth.svg");
+    background-image: url("svg/earth.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
